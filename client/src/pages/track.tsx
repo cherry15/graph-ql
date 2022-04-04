@@ -3,6 +3,7 @@ import Layout from '../components/layout/layout'
 import QueryResult from '../components/query-result/query-result'
 import { gql, useQuery } from '@apollo/client'
 import { useParams } from 'react-router-dom'
+import TrackDetail from '../components/tracks/track-detail'
 
 export const GET_TRACK = gql`
   query getTrack($trackId: ID!) {
@@ -31,13 +32,12 @@ export const GET_TRACK = gql`
 const Track = () => {
   let params = useParams()
   const { loading, error, data } = useQuery(GET_TRACK, {
-    variables: { trackId: params.trackId },
+    variables: { trackId: params.id },
   })
   return (
     <Layout>
-      <h1>Track</h1>
       <QueryResult error={error} loading={loading} data={data}>
-        {JSON.stringify(data?.track)}
+        <TrackDetail track={data?.track} />
       </QueryResult>
     </Layout>
   )

@@ -25,6 +25,10 @@
   margin: 0;
 }
 
+.container > div a {
+  color: var(--fontColor);
+}
+
 .container > div img {
   width: 100%;
   max-height: 240px;
