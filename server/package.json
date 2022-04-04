@@ -1,0 +1,21 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "back-end demo inspired from Raphael Terrier @R4ph-t",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index"
+  },
+  "dependencies": {
+    "apollo-datasource-rest": "^3.5.2",
+    "apollo-server": "^3.6.6",
+    "graphql": "^16.3.0"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.4"
+  },
+  "author": "Nana Hacker",
+  "license": "MIT",
+  "private": true
+}
