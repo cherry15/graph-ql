@@ -14,7 +14,7 @@ const TrackDetail = ({ track }: ITrackDetailProps) => {
       <h1>{title}</h1>
       <img src={thumbnail} alt={title} className={styles.image} />
       <div className={styles.info}>
-        <h2>By {author.name}</h2>
+        <h2 className={styles.heading}>By {author.name}</h2>
         <p>{description}</p>
       </div>
     </div>

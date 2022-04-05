@@ -23,7 +23,6 @@ const QueryResult = ({ loading, error, data, children }: IQueryResultProps) => {
     return <p>Nothing to show...</p>
   }
   if (data) {
-    console.log(data)
     return <>{children}</>
   }
 }

@@ -13,4 +13,8 @@
   --fontColor: DarkSlateGray;
   --lightGrey: #e1e5ea;
   --grey: #dddddd;
+  --darkBlue: #000087;
+
+  --dangerBackgroundColor: #f8d7da;
+  --dangerForegroundColor: #711c24;
 }

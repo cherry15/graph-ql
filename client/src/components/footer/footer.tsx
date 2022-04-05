@@ -1,11 +1,8 @@
 import React from 'react'
+import footerStyles from './footer.module.css'
 
 const Footer = () => {
-  return (
-    <footer>
-      <h4>Footer</h4>
-    </footer>
-  )
+  return <footer className={footerStyles.footer}>CC 2022 Footer</footer>
 }
 
 export default Footer

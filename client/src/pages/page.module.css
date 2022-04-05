@@ -1,0 +1,79 @@
+@import '../styles/variables.css';
+
+.page {
+  align-items: flex-start;
+  padding: .8rem 0;
+  width: 100%;
+}
+
+.para {
+  margin-bottom: .8rem;
+}
+
+.mainFeature {
+  display: flex;
+	align-items: flex-end;
+  height: auto;
+  padding: 0;
+  background: none;
+  margin-bottom: 1rem;
+}
+
+.mainInfo {
+  background-color: var(--white);
+  max-width: 375px;
+  padding: 0;
+  height: auto;
+}
+
+.subFeatureContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.subFeature {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--lightGrey);
+  padding: 0.8rem;
+  gap: 1rem;
+}
+
+.subFeatureImage {
+  max-width: 310px;
+  align-self: center;
+}
+
+.about {
+  width: 100%;
+}
+
+@media screen and (min-width: 667px) {
+  .mainFeature {
+    align-items: flex-end;
+    height: 400px;
+    padding: 1rem 1rem 2rem;
+    background: url(https://res.cloudinary.com/dety84pbu/image/upload/v1598465568/nebula_cat_djkt9r.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .mainInfo {
+    max-width: 400px;
+    padding: 2rem;
+  }
+
+  .subFeatureContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+  }
+
+  .subFeatureImage {
+    max-width: 400px;
+  }
+
+  .about {
+    max-width: 600px;
+  }
+}

@@ -6,6 +6,7 @@ body {
   margin: 0;
   padding: 0;
   height: 100%;
+  font-size: 1rem;
 }
 
 html {
@@ -29,7 +30,6 @@ ul {
   min-height: 100%;
   display: grid;
   grid-template-rows: auto 1fr auto;
-  font-size: .8rem;
   position: relative;
 }
 
@@ -38,7 +38,7 @@ h2,
 h3,
 h4,
 h5 {
-  color: var(--red);
+  color: var(--green);
   margin: 0 0 .8rem 0;
 }
 
@@ -59,7 +59,7 @@ a {
 
 a:link,
 a:visited {
-  color: var(--blue);
+  color: var(--darkBlue);
 }
 
 a:hover,

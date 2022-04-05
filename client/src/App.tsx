@@ -3,15 +3,17 @@ import './App.css'
 import Tracks from './pages/tracks'
 import Track from './pages/track'
 import { Routes, Route } from 'react-router-dom'
-// import TrackItem from './components/tracks/track-item'
+import About from './pages/about'
+import Home from './pages/home'
 
 const App = () => {
   return (
-    <div className="App">
+    <div className="app">
       <Routes>
-        <Route path="/" element={<Tracks />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/tracks" element={<Tracks />} />
         <Route path="/track/:id" element={<Track />} />
-        {/* <Route path="card" element={<TrackItem />} />  */}
+        <Route path="/about" element={<About />} />
       </Routes>
     </div>
   )

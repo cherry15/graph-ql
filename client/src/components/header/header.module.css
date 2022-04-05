@@ -1,0 +1,10 @@
+@import '../../styles/variables.css';
+
+header {
+  width: 100%;
+  background-color: var(--green);
+  position: sticky;
+  z-index: 8;
+  top: 0;
+  overflow: hidden;
+}

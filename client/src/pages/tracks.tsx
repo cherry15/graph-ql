@@ -1,10 +1,10 @@
 import React from 'react'
-import Layout from '../components/layout/layout'
 import QueryResult from '../components/query-result/query-result'
 import { gql, useQuery } from '@apollo/client'
 import { ITrack } from '../components/tracks/track-model'
 import TrackCard from '../components/tracks/track-card'
 import styles from '../styles/container.module.css'
+import pageStyles from './page.module.css'
 
 const TRACKS = gql`
   query TracksQuery {
@@ -23,7 +23,7 @@ const TRACKS = gql`
 const Tracks = () => {
   const { loading, error, data } = useQuery(TRACKS)
   return (
-    <Layout>
+    <div className={pageStyles.page}>
       <h1>Tracks</h1>
       <QueryResult error={error} loading={loading} data={data}>
         <div className={styles.container}>
@@ -32,7 +32,7 @@ const Tracks = () => {
           ))}
         </div>
       </QueryResult>
-    </Layout>
+    </div>
   )
 }
 

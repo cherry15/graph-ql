@@ -5,6 +5,8 @@ import App from './App'
 import reportWebVitals from './reportWebVitals'
 import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client'
 import { BrowserRouter } from 'react-router-dom'
+import Header from './components/header/header'
+import Footer from './components/footer/footer'
 
 const client = new ApolloClient({
   uri: 'http://localhost:4000',
@@ -15,7 +17,9 @@ ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
       <ApolloProvider client={client}>
+        <Header />
         <App />
+        <Footer />
       </ApolloProvider>
     </BrowserRouter>
   </React.StrictMode>,
