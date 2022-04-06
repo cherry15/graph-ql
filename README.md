@@ -16,6 +16,8 @@ I have discovered some limitations of CSS Modules with a dynamic active class so
 
 Although I know how to lazy load components I haven't done this because at the time it was an experimental feature, neither have I used Suspense for the same reason.
 
+I will be adding tests using [MSW]{https://mswjs.io/}
+
 In the client folder you can run
 ### `npm install && npm start`
 
