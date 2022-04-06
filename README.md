@@ -1,6 +1,6 @@
 # Getting Started with Learn Apollo GraphQL
 The purpose of this app is to learn the basics of graphQL server and client. It is based on the tutorial at 
-https://odyssey.apollographql.com/lift-off-part1/feature-overview-and-setup parts 1, 2 and 3. 
+[Odyssey Apollo GraphQL parts 1, 2 and 3](https://odyssey.apollographql.com/lift-off-part1/feature-overview-and-setup). 
 It also uses create react app and react router [Create React App](https://github.com/facebook/create-react-app).
 
 I have re-written the FE to typescript and have simplified the styles.
