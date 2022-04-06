@@ -8,7 +8,7 @@ It also uses create react app and react router [Create React App](https://github
 
 I have re-written the FE to typescript and have simplified the styles.
 
-The images are huge but as image compression isn't the goal of this exercise I've left them huge. I also don't have control over the images, normally I would use scrset.
+The images are huge but as image compression isn't the goal of this exercise I've left them huge. I also don't have control over the images, normally I would use srcset.
 
 The home page is static as I was working out a design using flex instead of position absolute. 
 
