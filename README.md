@@ -30,8 +30,16 @@ CD into the directory
 
 And install dependencies
 
+CD into the client folder and run
+#### `npm install`
+
+CD into the server folder and run
+#### `npm install`
+
+## Available Scripts
+
 In the client folder you can run
-#### `npm install && npm start`
+#### `npm start`
 
 In the server folder you can run
-#### `npm install && npm start`
+#### `npm start`
