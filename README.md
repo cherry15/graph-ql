@@ -8,7 +8,7 @@ It also uses create react app and react router [Create React App](https://github
 
 I have re-written the FE to typescript and have simplified the styles.
 
-The images are huge but as image compression isn't the goal of this exercise I've left them huge. I also don't have control over the images, normally I would use srcset.
+The images are huge but as image compression isn't the goal of this exercise I've left them huge. I also don't have control over the images.
 
 The home page is static as I was working out a design using flex instead of position absolute. 
 
@@ -18,8 +18,22 @@ Although I know how to lazy load components I haven't done this because at the t
 
 I will be adding tests using [MSW](https://mswjs.io/)
 
+## Running the App
+
+In the command prompt or terminal clone the app
+
+#### `git clone https://github.com/cherry15/graph-ql.git`
+
+CD into the directory
+
+#### `cd graph-ql`
+
+And install dependencies
+
+#### `npm i`
+
 In the client folder you can run
-### `npm install && npm start`
+#### `npm install && npm start`
 
 In the server folder you can run
-### `npm install && npm start`
+#### `npm install && npm start`
