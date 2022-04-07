@@ -30,8 +30,6 @@ CD into the directory
 
 And install dependencies
 
-#### `npm i`
-
 In the client folder you can run
 #### `npm install && npm start`
 
